@@ -8,7 +8,7 @@ UPDATE `creature_ai_texts`
 SET `content_loc0` = `content_default`;
 
 -- 3/14
-UPDATE `db_script_string`
+UPDATE `dbscript_string`
 SET `content_loc0` = `content_default`;
 
 -- 4/14
@@ -83,7 +83,7 @@ SET `locales_npc_text`.`Text0_0_loc0` = `npc_text`.`Text0_0`,
     `locales_npc_text`.`Text7_1_loc0` = `npc_text`.`Text7_1`;
 
 -- 14/14
-UPDATE `locales_command`
-INNER JOIN `command` ON `locales_command`.`id` = `command`.`id`
-SET `locales_command`.`help_text_loc0` = `command`.`help_text`;
+-- UPDATE `locales_command`
+-- INNER JOIN `command` ON `locales_command`.`id` = `command`.`id`
+-- SET `locales_command`.`help_text_loc0` = `command`.`help_text`;
 
