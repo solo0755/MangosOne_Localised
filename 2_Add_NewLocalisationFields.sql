@@ -12,7 +12,7 @@
             ADD COLUMN `content_loc0` TEXT AFTER `content_default`,
             ADD COLUMN `content_loc9` TEXT AFTER `content_loc8`;
 
-        ALTER TABLE `db_script_string`
+        ALTER TABLE `dbscript_string`
             ADD COLUMN `content_loc0` TEXT AFTER `content_default`,
             ADD COLUMN `content_loc9` TEXT AFTER `content_loc8`;
 
