@@ -1,8 +1,8 @@
 #!/bin/sh
 dbname=$1
 if [ "${dbname}" = "" ]; then
-echo "the  sql file  are require!"
-printf "Usage: import.sql\n"
+echo "the  dbName  are require!"
+printf "Usage: tbcmangos\n"
 exit 0
 fi
 
@@ -14,3 +14,6 @@ ${cmdimport} ${dbname} <3_InitialSaveEnglish.sql
 echo "import Chinese sql files"
 for sql_file in `ls Translations/Chinese/*.sql`; do ${cmdimport} ${dbname}< $sql_file ; done
 echo "import Chinese success"
+echo "to importing PPPZZZXXX files"
+${cmdimport} ${dbname} <pzxUpdate.sql
+echo "import success finish。"
