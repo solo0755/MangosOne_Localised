@@ -2326,7 +2326,9 @@ INSERT INTO `tbcmangos`.`gossip_menu_option` (`menu_id`, `id`, `option_icon`, `o
 INSERT INTO `tbcmangos`.`gossip_menu` (`entry`, `text_id`, `script_id`, `condition_id`) VALUES ('20001', '20001', '0', '0');
 INSERT INTO `tbcmangos`.`npc_text` (`ID`, `text0_0`, `text0_1`, `lang0`, `prob0`, `em0_0`, `em0_1`, `em0_2`, `em0_3`, `em0_4`, `em0_5`, `text1_0`, `text1_1`, `lang1`, `prob1`, `em1_0`, `em1_1`, `em1_2`, `em1_3`, `em1_4`, `em1_5`, `text2_0`, `text2_1`, `lang2`, `prob2`, `em2_0`, `em2_1`, `em2_2`, `em2_3`, `em2_4`, `em2_5`, `text3_0`, `text3_1`, `lang3`, `prob3`, `em3_0`, `em3_1`, `em3_2`, `em3_3`, `em3_4`, `em3_5`, `text4_0`, `text4_1`, `lang4`, `prob4`, `em4_0`, `em4_1`, `em4_2`, `em4_3`, `em4_4`, `em4_5`, `text5_0`, `text5_1`, `lang5`, `prob5`, `em5_0`, `em5_1`, `em5_2`, `em5_3`, `em5_4`, `em5_5`, `text6_0`, `text6_1`, `lang6`, `prob6`, `em6_0`, `em6_1`, `em6_2`, `em6_3`, `em6_4`, `em6_5`, `text7_0`, `text7_1`, `lang7`, `prob7`, `em7_0`, `em7_1`, `em7_2`, `em7_3`, `em7_4`, `em7_5`) VALUES ('20001', '这里有很多可以挑选的东西,开始地狱火之路吧， $n?', '这里有很多可以挑选的东西,开始地狱火之路吧， $n?', '0', '1', '0', '6', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0', '', '', '0', '0', '0', '0', '0', '0', '0', '0');
 
--- 幻化物品重命名
-UPDATE `tbcmangos`.`locales_item` SET `entry`='21831', `name_loc0`='Wrappered Gift', `name_loc1`='', `name_loc2`='', `name_loc3`='', `name_loc4`='幻化宝箱', `name_loc5`='', `name_loc6`='', `name_loc7`='', `name_loc8`='', `name_loc9`=NULL, `description_loc0`='', `description_loc1`=NULL, `description_loc2`=NULL, `description_loc3`=NULL, `description_loc4`=NULL, `description_loc5`=NULL, `description_loc6`=NULL, `description_loc7`=NULL, `description_loc8`=NULL, `description_loc9`=NULL WHERE (`entry`='21831');
+-- 幻化物品和死亡一指物品重命名等级
+update  `item_template` set quality='6' WHERE `entry` IN (5417,5418,21831);
+UPDATE `item_template` SET `entry`='21831', `name`='幻化宝箱' WHERE (`entry`='21831');
+UPDATE `locales_item` SET `name_loc4`='幻化宝箱' WHERE (`entry`='21831');
 
 
