@@ -1585,6 +1585,8 @@ INSERT INTO `tbcmangos`.`npc_trainer` (`entry`, `spell`, `spellcost`, `reqskill`
 INSERT INTO `tbcmangos`.`npc_trainer` (`entry`, `spell`, `spellcost`, `reqskill`, `reqskillvalue`, `reqlevel`, `condition_id`) VALUES ('198601', '59161', '2500', '0', '0', '70', '0');
 INSERT INTO `tbcmangos`.`npc_trainer` (`entry`, `spell`, `spellcost`, `reqskill`, `reqskillvalue`, `reqlevel`, `condition_id`) VALUES ('198601', '59170', '2500', '0', '0', '70', '0');
 
+INSERT INTO `tbcmangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `condition_id`, `comments`) VALUES ('198601', '32458', '0', '0', '0', '0', '');
+
 INSERT INTO `tbcmangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `condition_id`, `comments`) VALUES ('198101', '8827', '0', '0', '0', '0', '');
 INSERT INTO `tbcmangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `condition_id`, `comments`) VALUES ('198101', '22105', '0', '0', '0', '0', '');
 INSERT INTO `tbcmangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `condition_id`, `comments`) VALUES ('198101', '22521', '0', '0', '0', '0', '');
