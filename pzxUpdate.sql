@@ -1592,8 +1592,6 @@ INSERT INTO `tbcmangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `
 INSERT INTO `tbcmangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `condition_id`, `comments`) VALUES ('198101', '23529', '0', '0', '0', '0', '');
 INSERT INTO `tbcmangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `condition_id`, `comments`) VALUES ('198101', '27658', '0', '0', '0', '0', '');
 INSERT INTO `tbcmangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `condition_id`, `comments`) VALUES ('198101', '27659', '0', '0', '0', '0', '');
-INSERT INTO `tbcmangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `condition_id`, `comments`) VALUES ('198101', '27696', '0', '0', '0', '0', '');
-INSERT INTO `tbcmangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `condition_id`, `comments`) VALUES ('198101', '27699', '0', '0', '0', '0', '');
 INSERT INTO `tbcmangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `condition_id`, `comments`) VALUES ('198101', '28421', '0', '0', '0', '0', '');
 INSERT INTO `tbcmangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `condition_id`, `comments`) VALUES ('198101', '32948', '0', '0', '0', '0', '');
 INSERT INTO `tbcmangos`.`npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `condition_id`, `comments`) VALUES ('198101', '33866', '0', '0', '0', '0', '');
